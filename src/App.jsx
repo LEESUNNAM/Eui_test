@@ -3,6 +3,7 @@ import Container from '@mui/material/Container';
 
 import ButtonSection from './components/sections/button-section';
 import InputSection from './components/sections/input-section';
+import NavigationSection from './components/sections/navigation-section';
 
 /** 네비게이션 없이 UI 섹션들을 순차적으로 쌓아 보여주는 기본 레이아웃 */
 function App() {
@@ -28,6 +29,7 @@ function App() {
       >
         <ButtonSection />
         <InputSection />
+        <NavigationSection />
       </Container>
     </Box>
   );
